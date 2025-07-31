@@ -1,0 +1,180 @@
+.butt1{
+  display: inline-block;      /* Treat <a> like a block button */
+  height: 50px;
+  width: 120px;               /* Use same width for both */
+  padding: 15px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;      /* For <a> - removes underline */
+  transition-duration: 0.4s;
+  line-height: 20px;          /* Keeps text vertically centered */
+  vertical-align: middle;
+  box-sizing: border-box;
+
+
+}
+
+.butt2{
+  display: inline-block;      /* Treat <a> like a block button */
+  height: 50px;
+  width: 120px;               /* Use same width for both */
+  padding: 15px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;      /* For <a> - removes underline */
+  transition-duration: 0.4s;
+  line-height: 20px;          /* Keeps text vertically centered */
+  vertical-align: middle;
+  box-sizing: border-box;
+  
+  
+  
+  }
+
+  .butt2 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .butt1 {
+    transition-duration: 0.4s;
+  }
+  
+  .butt1:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+
+  .butt2 {
+    transition-duration: 0.4s;
+  }
+  
+  .butt2:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+  
+  .ground{
+    background-color: #fff8f0;
+    font-size: 20px;
+    padding: 10px;
+    font-family: poppins;
+
+
+  }
+
+  .contact{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-weight:500
+  }
+
+    
+  
+
+  .profile{
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    border: 2px solid blue; /* Increase this value for a thicker border */
+    
+    
+  }
+
+  .weks img {
+    width: 200px; /* or whatever size fits */
+    height: auto;
+    border-radius: 10px; /* slight rounded corners */
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+  }
+
+  .weks img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    filter: brightness(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .name{
+    float:right;
+    padding: 0px;
+    margin-right: 1150px;
+    padding-top: 17px;
+    font-size: 15px;
+    font-family: poppins;
+    
+    }
+
+  .about{
+    font-family: poppins;
+    font-size: 15px;
+  }
+
+.project{
+  font-size: 20px;
+  margin-bottom: -16px;
+}
+
+.points{
+  font-size: 15px;
+}
+
+.foot{
+  font-size: 10px;
+  margin-top: 1%;
+}
+
+.weks{
+  border-style: none;
+}
+
+.work{
+  font-size: 20px;
+}
+
+.review-card{
+  background-color: white;
+  box-shadow: 2px 2px 0.5px #888888;
+  height: 150px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  
+
+ 
+}
+
+.review-container {
+  display: flex;
+  gap: 20px; /* spacing between cards */
+  flex-wrap: wrap; /* wraps to next line on small screens */
+  justify-content: center; /* centers them horizontally */
+  
+}
+
+section {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.review-container :hover{
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
